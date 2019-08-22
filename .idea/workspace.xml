@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d437340c-a7d7-47e3-9de2-478cc471ae37" name="Default Changelist" comment="" />
+    <list default="true" id="d437340c-a7d7-47e3-9de2-478cc471ae37" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_project.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_project.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +16,16 @@
       <list>
         <option value="HTML File" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Git\project-master\.idea" />
+      </set>
     </option>
   </component>
   <component name="ProjectId" id="1PeXi4WK2nL2KQ49XUMVUDhfoSn" />
@@ -45,10 +58,22 @@
       <updated>1566235659882</updated>
       <workItem from="1566235661310" duration="217000" />
       <workItem from="1566292137877" duration="148000" />
+      <workItem from="1566513320864" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
