@@ -48,21 +48,36 @@ figure .image-header {
 
 nav {
     position: fixed;
-    top: 240px;
-    left: -32px;
+    top: 260px;
+    left: 15px;
     font-size: 20px;
+    width: 130px;
+    height: 255px;
+    background-color: rgba(240, 255, 255, 0.4);
+    border-radius: 10px;
 }
 
 nav ul {
     list-style: none;
+    margin-left: -40px;
+    margin-top: 5px;
+    text-align: center;
 }
 
 nav li {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav li:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
 }
 
 nav a {
+    text-decoration: none;
+    color: mediumblue;
     cursor: pointer;
 }
+
 
