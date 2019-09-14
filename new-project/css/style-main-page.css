@@ -2,17 +2,27 @@
 
 body {
     margin: 0;
-    background: url("../images/cardboard.png");
+    background: url("../images/cardboard-theme.png");
+    font-family: 'Cormorant Garamond', serif;
 }
 
-ul {
+.social {
     position: absolute;
-    list-style: none;
-    left: 960px;
-    top:-10px;
+    left: 1105px;
+    top: -10px;
 }
-li {
+
+.social ul {
+    list-style: none;
+}
+
+.social li {
     display: inline;
+    padding-right: 5px;
+}
+
+.social a {
+    cursor: pointer;
 }
 
 h1 {
@@ -25,13 +35,34 @@ h1 {
     -webkit-text-stroke: 0.3px black;
 }
 
-.image-header {
+figure .image-header {
     border-radius: 10px;
 }
 
-hr {
-    border-style: solid;
-    border-width: 1.2px;
-    border-color: rgba(105, 105, 105, 0.2);
+.line {
+    position: absolute;
+    top: 220px;
+    left: 100px;
+    opacity: 0.4;
+}
+
+nav {
+    position: fixed;
+    top: 240px;
+    left: -32px;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav a {
+    cursor: pointer;
 }
 
