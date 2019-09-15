@@ -8,7 +8,7 @@ body {
 
 .social {
     position: absolute;
-    left: 1105px;
+    left: 1090px;
     top: -10px;
 }
 
@@ -43,13 +43,13 @@ figure .image-header {
     position: absolute;
     top: 220px;
     left: 100px;
-    opacity: 0.4;
+    opacity: 0.3;
 }
 
 nav {
     position: fixed;
-    top: 260px;
-    left: 15px;
+    top: 280px;
+    left: 30px;
     font-size: 20px;
     width: 130px;
     height: 255px;
@@ -79,5 +79,58 @@ nav a {
     color: mediumblue;
     cursor: pointer;
 }
+
+.text {
+    background: url("../images/block-text-theme.png");
+    position: absolute;
+    top: 280px;
+    left: 195px;
+    width: 1250px;
+    height: 15000px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 8px darkgray;
+}
+
+.text p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text .image-1 {
+    padding-left: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text .image-2 {
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text .image-3 {
+    padding-left: 220px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text .image-4 {
+    padding-left: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
