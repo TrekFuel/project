@@ -86,7 +86,7 @@ nav a {
     top: 280px;
     left: 195px;
     width: 1250px;
-    height: 15000px;
+    height: 14535px;
     font-size: 20px;
     border-radius: 10px;
     box-shadow: 8px 8px 8px 8px darkgray;
@@ -121,7 +121,28 @@ nav a {
     padding-bottom: 10px;
 }
 
+.text .video {
+    padding-left: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
+.refs {
+    display: inline-block;
+    margin-top: 35px;
+}
+
+.refs a {
+    padding-left: 550px;
+    text-decoration: none;
+    color: orangered;
+}
+
+footer {
+    position: absolute;
+    top: 14900px;
+    left: 680px;
+}
 
 
 
