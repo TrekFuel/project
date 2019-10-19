@@ -1,0 +1,38 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss",
+url('https://fonts.googleapis.com/css?family=Jura:700|Play&display=swap&subset=cyrillic'),
+"mixins", "variables";
+
+body {
+  font-family: 'Play', sans-serif;
+}
+
+header {
+  font-family: 'Jura', sans-serif;
+}
+
+.container {
+  background: url("../images/bg-image-cont.png");
+  max-width: 1400px;
+}
+
+.card {
+  border: none;
+}
+
+footer li {
+  display: inline;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
