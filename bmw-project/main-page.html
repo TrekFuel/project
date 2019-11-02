@@ -12,70 +12,70 @@
 </head>
 <body>
 <header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <nav class="navbar navbar-light bg-light">
+  <div class="container-header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <a class="navbar-brand"
          href="https://www.bmw-m.com/en/index.html" target="_blank">
         <img src="images/BMW-M-logo.png" width="75"
              height="27" alt="BMW-M-Logo">
       </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active mr-3">
+            <a class="nav-link" href="#">Главная<span
+                class="sr-only"></span></a>
+          </li>
+          <li class="nav-item dropdown nav-item active mr-3">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+               role="button" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">
+              Навигация
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#1">Создание подразделения</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#2">BMW Junior Team</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#3">Двигатели для F1</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#4">Кольцевые гонки</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#5">В
+                современное время</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#6">Галерея фото</a>
+            </div>
+          </li>
+          <li class="nav-item active mr-3">
+            <a class="nav-link"
+               href="#7"
+            >Контакты<span
+                class="sr-only"></span></a>
+          </li>
+          <li class="nav-item active mr-3">
+            <a class="nav-link"
+               href="https://www.bayernkraft.by/katalog-bmw/bmw-m-serii/"
+               target="_blank">Купить<span
+                class="sr-only"></span></a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search"
+                 placeholder="Поиск по сайту"
+                 aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Поиск
+          </button>
+        </form>
+      </div>
     </nav>
-    <button class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active mr-3">
-          <a class="nav-link" href="#">Главная<span
-              class="sr-only"></span></a>
-        </li>
-        <li class="nav-item dropdown nav-item active mr-3">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-             role="button" data-toggle="dropdown" aria-haspopup="true"
-             aria-expanded="false">
-            Навигация
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#1">Создание подразделения</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#2">BMW Junior Team</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#3">Двигатели для F1</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#4">Кольцевые гонки</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#5">В
-              современное время</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#6">Галерея фото</a>
-          </div>
-        </li>
-        <li class="nav-item active mr-3">
-          <a class="nav-link"
-             href="#7"
-          >Контакты<span
-              class="sr-only"></span></a>
-        </li>
-        <li class="nav-item active mr-3">
-          <a class="nav-link"
-             href="https://www.bayernkraft.by/katalog-bmw/bmw-m-serii/"
-             target="_blank">Купить<span
-              class="sr-only"></span></a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search"
-               placeholder="Поиск по сайту"
-               aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-          Поиск
-        </button>
-      </form>
-    </div>
-  </nav>
+  </div>
 </header>
 <div class="container">
   <section class="intro">
@@ -132,11 +132,11 @@
              alt="BMW 3.0 CSL E9" title="BMW 3.0 CSL E9">
       </div>
     </div>
+    <a name="1"></a>
   </section>
   <section class="main">
-    <div class="row p-2 pt-5">
+    <div class="row p-2 pt-5 mt-2">
       <div class="col-12">
-        <a name="1"></a>
         <h3>Создание подразделения</h3>
         <figure>
           <img src="images/bmw-m-logo.jpg"
@@ -146,7 +146,6 @@
           <figcaption class="text-center">BMW Motorsport logo</figcaption>
         </figure>
         <p>
-          <a name="1"></a>
           В мае 1972-го в "BMW AG" принимают решение об официальном участии
           фирмы в
           европейском чемпионате по "кузовному кольцу" и специально создает
@@ -231,40 +230,41 @@
                alt="BMW 2002 turbo"
                title="BMW 2002 turbo"
                class="img-fluid rounded mx-auto d-block p-3"/>
+          <a name="2"></a>
           <figcaption class="text-center">BMW 2002 turbo</figcaption>
         </figure>
         <p>
-          <a name="2"></a>
-        <h3>BMW Junior Team</h3>
-        Маркетинговое подразделение компании "BMW AG" потребовало переключить
-        спортивную деятельность на "продвижение" новинки. Учитывая успехи и
-        опыт
-        "BMW Motorsport GmbH" в конструировании автомобилей "группы 5" и
-        двигателей
-        "Ф2", вполне естественным выглядит решение совместить эти наработки в
-        новой
-        гоночной "320i", которая появилась на европейских гоночных трассах в
-        1977-м
-        (мотор той же серии "M12", мощностью 300 л. с.). Тогда же формируется
-        "BMW
-        Junior Team", цель которой — поиск и продвижение молодых талантливых
-        гонщиков. В том же году один из них — Манфред Винкельхок (Manfred
-        Winkelhock) — занимает в немецком чемпионате 3-е место, уступив только
-        двум
-        "Porsche 935". Еще двое — Марк Сурер (Marc Surer) и Эдди Чивер (Eddie
-        Cheever) — делят 5-6 места. Программа оказалась очень успешной: ее
-        представители Бруно Джакомелли (Bruno Giacomelli) и Сурер стали
-        чемпионами
-        "Ф2", соответственно, в 1978 и 1979 гг.; некоторые гонщики "BMW Junior
-        Team"
-        в дальнейшем выступали и в "формуле 1".
-        Параллельно в середине 1970-х болиды BMW участвовали в серии IMSA в
-        США.
-        Естественно, в "BMW Motorsport" не захотели прерывать выступления в
-        Америке
-        и в том же 1977-м отправили туда "320"-ю, оснащенную турбонаддувом:
-        мощность
-        теперь составляла от 400 до 600 л. с.
+        <h3 class="pt-3">BMW Junior Team</h3>
+        <p>
+          Маркетинговое подразделение компании "BMW AG" потребовало переключить
+          спортивную деятельность на "продвижение" новинки. Учитывая успехи и
+          опыт
+          "BMW Motorsport GmbH" в конструировании автомобилей "группы 5" и
+          двигателей
+          "Ф2", вполне естественным выглядит решение совместить эти наработки в
+          новой
+          гоночной "320i", которая появилась на европейских гоночных трассах в
+          1977-м
+          (мотор той же серии "M12", мощностью 300 л. с.). Тогда же формируется
+          "BMW
+          Junior Team", цель которой — поиск и продвижение молодых талантливых
+          гонщиков. В том же году один из них — Манфред Винкельхок (Manfred
+          Winkelhock) — занимает в немецком чемпионате 3-е место, уступив только
+          двум
+          "Porsche 935". Еще двое — Марк Сурер (Marc Surer) и Эдди Чивер (Eddie
+          Cheever) — делят 5-6 места. Программа оказалась очень успешной: ее
+          представители Бруно Джакомелли (Bruno Giacomelli) и Сурер стали
+          чемпионами
+          "Ф2", соответственно, в 1978 и 1979 гг.; некоторые гонщики "BMW Junior
+          Team"
+          в дальнейшем выступали и в "формуле 1".
+          Параллельно в середине 1970-х болиды BMW участвовали в серии IMSA в
+          США.
+          Естественно, в "BMW Motorsport" не захотели прерывать выступления в
+          Америке
+          и в том же 1977-м отправили туда "320"-ю, оснащенную турбонаддувом:
+          мощность
+          теперь составляла от 400 до 600 л. с.
         </p>
         <figure>
           <img src="images/bmw-320i.jpg"
@@ -316,13 +316,6 @@
                class="img-fluid rounded mx-auto d-block p-3"/>
           <figcaption class="text-center">BMW M1</figcaption>
         </figure>
-        <figure class="image-3">
-          <img src="images/bmw-m1-procar.jpg"
-               alt="BMW M1 Pro Car"
-               title="BMW M1 Pro Car"
-               class="img-fluid rounded mx-auto d-block p-3"/>
-          <figcaption class="text-center">BMW M1 Pro Car</figcaption>
-        </figure>
         <p>
           Тогда же появляется мысль создать настоящий "автомобиль для водителя"
           на
@@ -344,10 +337,10 @@
                alt="BMW M535I E12"
                title="BMW M535I E12"
                class="img-fluid rounded mx-auto d-block p-3"/>
+          <a name="3"></a>
           <figcaption class="text-center">BMW M535I E12</figcaption>
         </figure>
-        <a name="3"></a>
-        <h3>Двигатели для F1</h3>
+        <h3 class="pt-3">Двигатели для F1</h3>
         <p>
           Снова возвращаемся немного назад. В конце 1970-х интерес публики к
           "кузовному кольцу" стал постепенно спадать, сказалась монотонность
@@ -388,17 +381,10 @@
                alt="Brabham BT52 BMW"
                title="Brabham BT52 BMW"
                class="img-fluid rounded mx-auto d-block p-3"/>
+          <a name="4"></a>
           <figcaption class="text-center">Brabham BT52 BMW</figcaption>
         </figure>
-        <figure>
-          <img src="images/nelson-pique.jpg"
-               alt="Нельсон Пике"
-               title="Нельсон Пике"
-               class="img-fluid rounded mx-auto d-block p-3"/>
-          <figcaption class="text-center">Нельсон Пике</figcaption>
-        </figure>
-        <a name="4"></a>
-        <h3>Кольцевые гонки</h3>
+        <h3 class="pt-3">Кольцевые гонки</h3>
         <p>
           Однако, то было единственное первое место, одержанное с двигателем
           "BMW
@@ -449,13 +435,6 @@
           непроверенным данным, 1430 побед в различных соревнованиях.
         </p>
         <figure>
-          <img src="images/bmw-m3.jpg"
-               alt="BMW M3"
-               title="BMW M3"
-               class="img-fluid rounded mx-auto d-block p-3"/>
-          <figcaption class="text-center">BMW M3</figcaption>
-        </figure>
-        <figure>
           <img src="images/bmw-m3-ravilia.jpg"
                alt="BMW M3 и Роберто Равилья"
                title="BMW M3 и Роберто Равилья"
@@ -505,24 +484,6 @@
           <figcaption class="text-center">BMW M5 E34 c 3.6 литровым двигателем
           </figcaption>
         </figure>
-        <figure>
-          <img src="images/bmw-m5-e34-touring.jpg"
-               alt="BMW M5 E34 Touring было выпущено 891 авто"
-               title="BMW M5 E34 Touring было выпущено 891 авто"
-               class="img-fluid rounded mx-auto d-block p-3"/>
-          <figcaption class="text-center">BMW M5 E34 Touring было выпущено 891
-            авто
-          </figcaption>
-        </figure>
-        <figure>
-          <img src="images/bmw-m5-e34-dakargelb.jpg"
-               alt="BMW M5 E34 Final Evolution в цвете dakargelb"
-               title="BMW M5 E34 Final Evolution в цвете dakargelb"
-               class="img-fluid rounded mx-auto d-block p-3"/>
-          <figcaption class="text-center">BMW M5 E34 Final Evolution в цвете
-            dakargelb
-          </figcaption>
-        </figure>
         <p>
           BMW M8 один из самых засекреченных прототипов BMW. Предполагалось что
           машина станет конкурентом Ferrari. Была построена всего одна машина с
@@ -540,15 +501,15 @@
         </p>
         <figure>
           <img src="images/bmw-m8.jpg"
-               alt="BMW M8 один из самых засекреченных прототипов BMW"
-               title="BMW M8 один из самых засекреченных прототипов BMW"
+               alt="BMW M8-один из самых засекреченных прототипов BMW"
+               title="BMW M8-один из самых засекреченных прототипов BMW"
                class="img-fluid rounded mx-auto d-block p-3"/>
-          <figcaption class="text-center">BMW M8 один из самых засекреченных
+          <a name="5"></a>
+          <figcaption class="text-center">BMW M8-один из самых засекреченных
             прототипов BMW
           </figcaption>
         </figure>
-        <a name="5"></a>
-        <h3>В современное время</h3>
+        <h3 class="pt-3">В современное время</h3>
         <p>
           В 1992 году в структуру "BMW Motorsport GmbH" внедряется еще одно
           направление, занимающееся дорожными автомобилями: "BMW Individual",
@@ -572,7 +533,7 @@
             Individual
           </figcaption>
         </figure>
-        <p>
+        <p class="pb-3">
           Фирма "BMW Motorsport GmbH" изначально создавалась для того, чтобы
           подтвердить потенциал моделей BMW в сфере автомотоспорта. При этом
           благодаря
@@ -629,12 +590,12 @@
         <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item"
                   src="https://www.youtube.com/embed/4uPn7u9qtBk"></iframe>
+          <a name="6"></a>
         </div>
         <section class="gallery">
-          <div class="row p-2 pt-3">
+          <div class="row p-2 mb-5">
             <div class="col-12">
-              <a name="6"></a>
-              <h3>Галерея фото</h3>
+              <h3 class="mt-5">Галерея фото</h3>
               <div id="carouselExampleControls" class="carousel slide"
                    data-ride="carousel">
                 <div class="carousel-inner">
@@ -717,94 +678,104 @@
     </div>
     <div class="card-body">
       <div class="social card-text">
-        <ul class="list-unstyled p-2">
-          <li>
-            <a href="https://vk.com/bolotinnikita" target="_blank">
-              <img src="images/vk-logo.png"
-                   width="30"
-                   height="30"
-                   alt="ВК"
-                   title="ВК"/></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/bolotinnick" target="_blank">
-              <img src="images/twitter-logo.png"
-                   width="30"
-                   height="30"
-                   alt="Twitter"
-                   title="Twitter"/></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/bolotinnick/" target="_blank">
-              <img src="images/linkedin-logo.png"
-                   width="30"
-                   height="30"
-                   alt="LinkedIn"
-                   title="LinkedIn"/></a>
-          </li>
-          <li>
-            <a href="https://github.com/TrekFuel" target="_blank">
-              <img src="images/github-logo.png"
-                   width="30"
-                   height="30"
-                   alt="GitHub"
-                   title="GitHub"/></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/bolotinnick/" target="_blank">
-              <img src="images/instagram-logo.png"
-                   width="30"
-                   height="30"
-                   alt="Instagram"
-                   title="Instagram"/></a>
-          </li>
-          <li>
-            <a href="mailto:ridge96@yandex.ru?subject=website">
-              <img src="images/email-logo.png"
-                   width="30"
-                   height="30"
-                   alt="Email"
-                   title="Email"/></a>
-          </li>
-          <li>
-            <a href="https://t.me/bolotinnick" target="_blank">
-              <img src="images/telegram-logo.png"
-                   width="30"
-                   height="30"
-                   alt="Telegram"
-                   title="Telegram"/></a>
-          </li>
-          <li>
-            <a href="skype:nick-spinner96?add">
-              <img src="images/skype-logo.png"
-                   width="30"
-                   height="30"
-                   alt="Skype"
-                   title="Skype"/></a>
-          </li>
-          <li>
-            <a href="viber://chat?number=+375291328633">
-              <img src="images/viber-logo.png"
-                   width="30"
-                   height="30"
-                   alt="Viber"
-                   title="Viber"/></a>
-          </li>
-          <li>
-            <a href="https://wa.me/375291328633" target="_blank">
-              <img src="images/whatsapp-logo.png"
-                   width="30"
-                   height="30"
-                   alt="WhatsApp"
-                   title="WhatsApp"/></a>
-          </li>
-        </ul>
+        <div class="container-footer mx-auto">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.721878035059!2d27.41817618803294!3d53.88281185632542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6eec41e40c77dc6!2z0JHQsNC50LXRgNC90LrRgNCw0YTRgg!5e0!3m2!1sru!2sby!4v1572732368194!5m2!1sru!2sby"
+                width="800" height="450" frameborder="0" style="border:0;"
+                allowfullscreen="" class="embed-responsive-item"></iframe>
+          </div>
+        </div>
       </div>
+    </div>
+    <div class="card-footer text-center">
+      <ul class="list-unstyled p-2">
+        <li>
+          <a href="https://vk.com/bolotinnikita" target="_blank">
+            <img src="images/vk-logo.png"
+                 width="30"
+                 height="30"
+                 alt="ВК"
+                 title="ВК"/></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/bolotinnick" target="_blank">
+            <img src="images/twitter-logo.png"
+                 width="30"
+                 height="30"
+                 alt="Twitter"
+                 title="Twitter"/></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/bolotinnick/" target="_blank">
+            <img src="images/linkedin-logo.png"
+                 width="30"
+                 height="30"
+                 alt="LinkedIn"
+                 title="LinkedIn"/></a>
+        </li>
+        <li>
+          <a href="https://github.com/TrekFuel" target="_blank">
+            <img src="images/github-logo.png"
+                 width="30"
+                 height="30"
+                 alt="GitHub"
+                 title="GitHub"/></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/bolotinnick/" target="_blank">
+            <img src="images/instagram-logo.png"
+                 width="30"
+                 height="30"
+                 alt="Instagram"
+                 title="Instagram"/></a>
+        </li>
+        <li>
+          <a href="mailto:ridge96@yandex.ru?subject=website">
+            <img src="images/email-logo.png"
+                 width="30"
+                 height="30"
+                 alt="Email"
+                 title="Email"/></a>
+        </li>
+        <li>
+          <a href="https://t.me/bolotinnick" target="_blank">
+            <img src="images/telegram-logo.png"
+                 width="30"
+                 height="30"
+                 alt="Telegram"
+                 title="Telegram"/></a>
+        </li>
+        <li>
+          <a href="skype:nick-spinner96?add">
+            <img src="images/skype-logo.png"
+                 width="30"
+                 height="30"
+                 alt="Skype"
+                 title="Skype"/></a>
+        </li>
+        <li>
+          <a href="viber://chat?number=+375291328633">
+            <img src="images/viber-logo.png"
+                 width="30"
+                 height="30"
+                 alt="Viber"
+                 title="Viber"/></a>
+        </li>
+        <li>
+          <a href="https://wa.me/375291328633" target="_blank">
+            <img src="images/whatsapp-logo.png"
+                 width="30"
+                 height="30"
+                 alt="WhatsApp"
+                 title="WhatsApp"/></a>
+        </li>
+      </ul>
       <div class="btn btn-info mb-2">Bolotin Nikita &copy;, 2019 <br> FE-1
         Courses
       </div>
     </div>
-    <div class="card-footer text-left">
+    <div class="text-left m-2">
       <a href="#top" class="btn btn-primary">Наверх &uarr;</a>
     </div>
   </div>
